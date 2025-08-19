@@ -9,7 +9,7 @@ What I did (compartmentalized)
 
 - Created Login and Profile components in `components/`.
 - Put both components as siblings in `App.jsx`.
-- Wrapped `<App />` with `<Provider store={store}>` in `main.jsx` (inside StrictMode).
+- Wrapped `<App />` with `<Provider store={store}>` in `index.jsx` (inside StrictMode).
 - Created a Redux store with `configureStore` and passed the reducer(s) to it.
 - Created `features/userSlice.jsx` using `createSlice` with `name: "user"`, `initialState`, and a `login` reducer that sets state from `action.payload`.
 - In `Profile` used `useSelector` to read from the Redux store and displayed `user.name`, `user.age`, etc.

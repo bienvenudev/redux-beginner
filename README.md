@@ -25,7 +25,7 @@ The project was created with Vite — Redux code and RTK usage are the same rega
 
 - `features/userSlice.jsx` — the slice for user state (initial state, reducers, actions).
 - `src/app/store.js` (or similar) — `configureStore` and reducer registration.
-- `src/main.jsx` — wraps `<App />` with `<Provider store={store}>`.
+- `src/index.jsx` — wraps `<App />` with `<Provider store={store}>`.
 - `src/components/Login.jsx` — dispatches the `login` action.
 - `src/components/Profile.jsx` — reads state with `useSelector`.
 
